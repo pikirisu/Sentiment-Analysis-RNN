@@ -9,7 +9,7 @@ import streamlit as st
 word_index = imdb.get_word_index()
 reverse_word_index = {value:key for key,value in word_index.items()}
 
-model = load_model('notebooks\simple_rnn_imdb.h5')
+model = load_model('notebooks/simple_rnn_imdb.h5')
 
 # Helper functions
 Max_Vocab_size =1000
