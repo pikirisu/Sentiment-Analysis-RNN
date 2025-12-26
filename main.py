@@ -12,14 +12,13 @@ reverse_word_index = {value:key for key,value in word_index.items()}
 model = load_model('notebooks/simple_rnn_imdb.h5')
 
 # Helper functions
-Max_Vocab_size =1000
+Max_Vocab_size =10000
 def decoder_review (encoded_review):
     return ' '.join([reverse_word_index.get(i-3,'?') for i in encoded_review])
 
 def preprocess_text(text):
     words = text.lower().split()
-    encoded_review = [word_index.get(word,2)+3
-                      if word_index.get(word,2)+3<Max_Vocab_size else 2 for word in words]
+    encoded_review = [word_index.get(word,2)+3 if word_index.get(word,2)+3<Max_Vocab_size else 2 for word in words]
     paddded_review = sequence.pad_sequences([encoded_review],maxlen=500)
     return paddded_review
 
