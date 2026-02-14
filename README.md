@@ -39,10 +39,10 @@ The model is a Sequential model consisting of the following layers:
 
 ```mermaid
 graph LR
-    A[Input Text] --> B[Embedding Layer]
-    B --> C[SimpleRNN (128 units)]
-    C --> D[Dense (Sigmoid)]
-    D --> E[Output (Positive/Negative)]
+    A["Input Text"] --> B["Embedding Layer"]
+    B --> C["SimpleRNN (128 units)"]
+    C --> D["Dense (Sigmoid)"]
+    D --> E["Output (Positive/Negative)"]
 ```
 
 ## Results
