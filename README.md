@@ -1,4 +1,4 @@
-# 🎬 IMDB Movie Review Sentiment Analysis
+#  IMDB Movie Review Sentiment Analysis
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
@@ -9,11 +9,11 @@ A deep learning project that classifies movie reviews as **Positive** or **Negat
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 This project implements a sentiment analysis model trained on the IMDB dataset (50,000 movie reviews). It demonstrates the fundamental concepts of Natural Language Processing (NLP) and Deep Learning using a Simple RNN architecture. The trained model is deployed via a user-friendly Streamlit web application.
 
-## ✨ Features
+##  Features
 
 -   **Real-time Sentiment Analysis:** Instantly classifies user-entered movie reviews.
 -   **Interactive UI:** Clean and simple web interface powered by Streamlit.
@@ -21,7 +21,7 @@ This project implements a sentiment analysis model trained on the IMDB dataset (
 -   **Deep Learning Core:** Utilizes a Simple RNN built with TensorFlow/Keras.
 -   **Efficient Preprocessing:** customized text preprocessing pipeline for optimal model performance.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 -   **Language:** Python
 -   **Deep Learning Framework:** TensorFlow (Keras)
@@ -29,7 +29,7 @@ This project implements a sentiment analysis model trained on the IMDB dataset (
 -   **Data Processing:** NumPy
 -   **Dataset:** IMDB Movie Reviews (Keras Built-in)
 
-## 🏗️ Model Architecture
+##  Model Architecture
 
 The model is a Sequential model consisting of the following layers:
 
@@ -45,7 +45,7 @@ graph LR
     D --> E[Output (Positive/Negative)]
 ```
 
-## 📊 Results
+## Results
 
 The model was trained for 10 epochs with early stopping.
 
@@ -56,7 +56,7 @@ The model was trained for 10 epochs with early stopping.
 
 *Note: While Simple RNNs are effective for short sequences, they may struggle with long-term dependencies compared to LSTMs or GRUs.*
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 Simple_RNN_Project/
@@ -68,14 +68,14 @@ Simple_RNN_Project/
 └── README.md                 # Project documentation
 ```
 
-## 💻 Installation & Usage
+## Installation & Usage
 
 Follow these steps to set up and run the project locally.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/Simple_RNN_Project.git
-cd Simple_RNN_Project
+git clone https://github.com/pikirisu/Sentiment-Analysis-RNN.git
+cd Sentiment-Analysis-RNN
 ```
 
 ### 2. Create a Virtual Environment (Optional but Recommended)
@@ -96,7 +96,7 @@ streamlit run main.py
 
 The app will launch in your default web browser at `http://localhost:8501`.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! If you'd like to improve the model (e.g., switch to LSTM/GRU, add bidirectional layers) or enhance the UI:
 
@@ -106,10 +106,10 @@ Contributions are welcome! If you'd like to improve the model (e.g., switch to L
 4.  Push to the Branch (`git push origin feature/AmazingFeature`)
 5.  Open a Pull Request
 
-## 📜 License
+##  License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-*Created by [Your Name] - Feel free to contact me!*
+*Created by Akshat Chaurasia - Feel free to contact me!*
